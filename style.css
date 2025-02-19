@@ -20,6 +20,10 @@
     border-radius: 8px;
 }
 
+.cato-con{
+    border-right:1px solid gray;
+}
+
 .arr-icon{
     margin-left:300px;
 }
@@ -27,4 +31,14 @@
 .prod-butt{
     background-color: rgb(231, 47, 47);
     border: none;
+}
+.foot{
+    background-color: black;
+}
+
+
+@media (max-width:768px){
+    .cato-con{
+        display: none;
+    }
 }
